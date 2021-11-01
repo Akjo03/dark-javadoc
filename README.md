@@ -3,9 +3,9 @@
 ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Akjo03/dark-javadoc?label=Code%20Quality&style=flat-square)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Akjo03/dark-javadoc?label=Lines%20Of%20Code&style=flat-square)
 
-# AkjoNav
+# Javadoc Theme - Discord Dark
 
-An open-source, fully functional and intelligent navigation system made in Java.
+A Javadoc Theme themed after the 'Discord Dark' theme. Still a WIP.
 
 ## How to install into your java project
 
