@@ -1,0 +1,27 @@
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-javadoc-plugin</artifactId>
+    <version>3.0.0</version>
+    <configuration>
+        <reportOutputDirectory>${project.basedir}/doc</reportOutputDirectory>
+        <stylesheetfile>javadoc-stylesheet.css</stylesheetfile>
+        <tags>
+            <tag>
+                <name>apiNote</name>
+                <placement>a</placement>
+                <head>API Notes:</head>
+            </tag>
+            <tag>
+                <name>implSpec</name>
+                <placement>a</placement>
+                <head>Implementation Specification:</head>
+            </tag>
+            <tag>
+                <name>implNote</name>
+                <placement>a</placement>
+                <head>Implementation Note:</head>
+            </tag>
+        </tags>
+        <nohelp/>
+    </configuration>
+</plugin>
